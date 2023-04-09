@@ -1,4 +1,4 @@
-# Run Buddy
+# Run Buddy, Inc.
 
 ## Purpose
 A website that offers fitness training services.
@@ -12,3 +12,5 @@ https://lorenakell.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Lorena Kell
+
+### ©️2023 Run Buddy, Inc
