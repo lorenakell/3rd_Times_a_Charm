@@ -1,6 +1,4 @@
-<!-- @format -->
-
-# Run Buddy Inc.
+# Run Buddy, Inc.
 
 ## Purpose
 
@@ -18,3 +16,5 @@ https://lorenakell.github.io/run-buddy/
 ## Contribution
 
 Made with ❤️ by Lorena Kell
+
+### ©️2023 Run Buddy, Inc
