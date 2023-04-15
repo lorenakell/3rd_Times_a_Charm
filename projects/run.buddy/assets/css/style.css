@@ -268,6 +268,22 @@ section {
 
 /*Trainer Style End */
 
+/* Service Plans Start */
+
+.service-grid-container {
+  display: grid;
+}
+
+.service-grid-item {
+  width: 200px;
+  height: 50px;
+  background-color: orange;
+  border: solid;
+  color: black;
+}
+
+/* Service Plans End */
+
 /* Reach Out Style Start */
 
 .contact {
