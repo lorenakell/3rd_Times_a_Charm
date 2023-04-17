@@ -31,6 +31,14 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
 }
 
 header h1 {
@@ -98,6 +106,8 @@ section {
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
 }
 
 .hero-form {
@@ -122,6 +132,10 @@ section {
   margin: 5px 0 15px 0;
 }
 
+.hero-form button {
+  border-radius: 10px;
+}
+
 .form-input {
   border: 1px solid #024e76;
   display: block;
@@ -130,6 +144,13 @@ section {
   color: #024e76;
   width: 100%;
   margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.form-input:focus {
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
 }
 
 .hero-form label {
@@ -142,6 +163,10 @@ section {
   border: none;
   padding: 10px 20px;
   font-size: 16px;
+}
+
+.hero-form button:hover {
+  background-color: #39a6b2;
 }
 
 .hero-cta {
@@ -177,6 +202,14 @@ section {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+}
+
+.step:nth-child(even) {
+  border-bottom: 1px solid #39a6b2;
+}
+
+.step:not(:last-child) {
+  border-bottom: 1px solid #39a6b2;
 }
 
 .step h3 {
@@ -384,6 +417,7 @@ section {
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
+  border-radius: 10px;
 }
 
 .contact-form button {
@@ -394,6 +428,12 @@ section {
   text-align: center;
   padding: 15px 0;
   font-size: 16px;
+  border-radius: 10px;
+}
+
+.contact-form button:hover {
+  color: #fce138;
+  background: #39a6b2;
 }
 
 /* Reach Out Style End */
@@ -430,6 +470,7 @@ footer a {
   header {
     padding-bottom: 0;
     justify-content: center;
+    position: relative;
   }
 
   header h1 {
@@ -445,6 +486,13 @@ footer a {
 
   header nav ul li a {
     font-size: 20px;
+  }
+
+  header nav ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
   }
 
   footer h2,
