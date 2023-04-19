@@ -1,40 +1,20 @@
 /** @format */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-div {
-  --favorite-color: blue;
-  color: var(--favorite-color);
-  box-shadow: 5px 5px 10px var(--favorite-color);
-}
-
-div {
-  --size-small: 12px;
-  --size-big: 50px;
-  font-size: var(--favorite-color);
-  box-shadow: 5px 5px 10px var(--favorite-color);
-}
-
-div {
-  --size-small: 12px;
-  --size-big: 50px;
-  font-size: var(--size-small);
-  margin: var(--size-big) var(--size-small);
-}
-
 :root {
   --primary-color: #fce138;
   --secondary-color: #024e76;
   --tertiary-color: #39a6b2;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   color: var(--tertiary-color);
-  font-family: Helvetica, Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .text-left {
@@ -98,6 +78,13 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 1.55vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 15px;
+  text-shadow: none;
 }
 
 /* Header Style End */
