@@ -1,37 +1,38 @@
 /** @format */
 
 :root {
-  --main-black: #212121;
-  --main-purple: #9a99ff;
-  --main-yellow: #e6db74;
-  --main-blue: #2fcbef;
-  --main-white: #ffffff;
+	--main-black: #212121;
+	--main-purple: #9a99ff;
+	--main-pink: #ff00ff;
+	--main-yellow: #e6db74;
+	--main-blue: #2fcbef;
+	--main-white: #ffffff;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-  color: var(--main-black);
-  font-family: "VT323", monospace;
+	color: var(--main-black);
+	font-family: "VT323", monospace;
 }
 
 /* Header Style Start */
 
 header {
-  padding: 20px 35px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: var(--main-black);
-  /* background-image: url("../images/temp.female.coder.jpg");
-  background-size: cover;
+	padding: 20px 35px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: var(--main-black);
+	background-size: cover;
+	/* background-image: url("../images/temp.female.coder.jpg");
   background-position: center;
   background-attachment: fixed;
   background-position: 80%;
@@ -39,45 +40,46 @@ header {
 }
 
 header h1 {
-  font-weight: bold;
-  font-size: 36px;
-  color: var(--main-purple);
-  margin: 0;
+	font-weight: bold;
+	font-size: 36px;
+	color: var(--main-purple);
+	margin: 0;
 }
 
 header a {
-  text-decoration: none;
-  color: var(--main-white);
+	text-decoration: none;
+	color: var(--main-white);
 }
 
 .header-line-two {
-  color: var(--main-purple);
+	color: var(--main-pink);
 }
 
 header nav {
-  margin: 7px 0;
+	margin: 7px 0;
 }
 
 header nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	top: 0.2em;
 }
 
 header nav ul li a {
-  padding: 10px 15px;
-  font-weight: lighter;
-  font-size: 1.55vw;
-  text-shadow: 0 0 10px var(--main-black);
+	padding: 10px 15px;
+	font-weight: lighter;
+	font-size: 2vw;
+	text-shadow: 0 0 10px var(--main-black);
 }
 
 header nav ul li a:hover {
-  background: var(--main-blue);
-  color: var(--main-yellow);
-  border-radius: 15px;
-  text-shadow: none;
+	background: var(--main-pink);
+	color: var(--main-white);
+	border-radius: 15px;
+	text-shadow: none;
 }
 
 /* Header Style End */
@@ -85,16 +87,16 @@ header nav ul li a:hover {
 /* Site Header/Jumbotron Style Start */
 
 .site-header {
-  /* background-image: url("../images/temp.female.coder.jpg");
-  background-size: cover;
-  background-position: center; */
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  background-color: var(--main-black);
-  /* background-attachment: fixed;
-  background-position: 80%; */
+	/* background-image: url("../images/temp.female.coder.jpg");*/
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	background-color: var(--main-black);
+	background-attachment: fixed;
+	background-position: 80%;
 }
 
 /* Site Header Style End */
@@ -102,21 +104,31 @@ header nav ul li a:hover {
 /* Site Header Call to Action */
 
 .site-header-cta {
-  width: 35%;
-  text-align: right;
-  margin: 3.5%;
-  color: var(--white);
-  font-size: 18px;
-  line-height: 1.2;
+	width: 35%;
+	text-align: right;
+	margin: 3.5%;
+	color: var(--main-white);
+	font-size: 18px;
+	line-height: 1.2;
 }
 
 .site-header-cta h2 {
-  font-size: 55px;
-  color: var(--main-white);
+	font-size: 55px;
+	color: var(--main-white);
 }
 
 /* Site Header Call to Action End */
 
 /* Intro Start */
 
-.section-/* Intro End */;
+.running-description {
+	box-sizing: border-box;
+	color: var(--main-pink);
+	font-size: 98.48px;
+	font-weight: 400;
+	line-height: 78.784px;
+	text-align: center;
+
+}
+
+/* Intro End */
